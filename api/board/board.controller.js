@@ -2,9 +2,10 @@ const logger = require('../../services/logger.service')
 const boardService = require('./board.service')
 
 const get = async (req, res) => {
-    const boards = await boardService.query(req.query)
-    logger.debug(boards);
-    res.send(boards)
+    // const boards = await boardService.query(req.query)
+    // logger.debug(boards);
+    // res.send(boards)
+    res.send('hello')
 }
 const getById = async (req, res) => {
     const board = await boardService.getById(req.params.id)

@@ -24,7 +24,6 @@ app.use(session({
 }))
 
 
-process.env.NODE_ENV = undefined;
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.resolve(__dirname, 'public')));
 } else {
