@@ -59,4 +59,3 @@ http.listen(port, () => {
 });
 
 console.log('Aviv was here!');
-console.log('Aviv was here2!');
