@@ -57,3 +57,5 @@ app.get('/**', (req, res) => {
 http.listen(port, () => {
     logger.info('Server is running on port: ' + port)
 });
+
+console.log('Aviv was here!');
